@@ -1,0 +1,14 @@
+#Mostrar el precio del IVA de un producto con un valor de 350 Bs 
+IVA = 0.13
+
+preciodelproducto = 350 
+
+precioIVA = preciodelproducto * IVA
+
+print("El precio del IVA es " ,precioIVA, "Bs")
+
+print("El precio final es " , (precioIVA+preciodelproducto), "Bs")
+
+Resultado-. El precio del IVA es  45.5 Bs
+            El precio final es  395.5 Bs
+
