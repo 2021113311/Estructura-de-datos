@@ -1,0 +1,10 @@
+#crear tres variables numericas, sumarlas y mostrar por pantalla el resultado
+variable1 = 3
+variable2 = 5 
+variable3 = 2 
+
+suma = variable1 + variable2 + variable3
+
+print("la suma de " ,variable1, "+" ,variable2, "+" ,variable3, "=" ,suma)
+
+Resultado-.  la suma de  3 + 5 + 2 = 10
