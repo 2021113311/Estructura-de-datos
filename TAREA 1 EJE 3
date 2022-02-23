@@ -1,0 +1,12 @@
+#Diseñe un algoritmo que lea grados °C y los convierta a sus equivalentes en grados °F , grados °K y grados °R
+ print("ingrese la temperatura en grados centigrados °C ")
+ C = input () #leer los datos
+ C = float #leer numeros reales
+ 
+ F = (9*C/5)+32
+ R = C+460
+ K = R-187
+ 
+ print("En grados fahrenhit (°F) es: " ,F, "°" )
+ print("En grados Rankine (°R) es: " ,R, "°")
+ print("En grados kelvin (°K) es: " ,K, "°")
