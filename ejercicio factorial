@@ -1,0 +1,7 @@
+def factorial(numero):
+    if numero >1:
+         numero = numero*factorial(numero-1)
+    return numero
+
+numero=int(input("ingrese el numero del que desea calcular el factorial: "))
+print (factorial(numero))
