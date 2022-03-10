@@ -1,0 +1,8 @@
+#calcular el promedio de una lista
+lista = [20,15,25,30,23,51]
+suma=0
+for i in range(len(lista)):
+    suma=suma+i
+
+p = suma/len(lista)
+print (p)
