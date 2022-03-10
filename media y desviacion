@@ -1,0 +1,14 @@
+#la media y la desviacion
+
+lista2 = input("introduce una muestra de numeros separados por comas: ")
+lista2 = lista2.split(',')
+suma=0
+sumsq=0
+for i in lista2:
+    suma=suma+int(i)
+    sumsq += int(i)**2
+    
+n=len(lista2)
+P=suma/n
+stdev = (sumsq/n-P**2)**(1/2)
+print ('La media es', P, ', y la desviacion tipica es', stdev)
