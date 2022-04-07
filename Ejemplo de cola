@@ -1,0 +1,7 @@
+cola=0
+cola.append("a")
+cola.append("b")
+cola.append("c")
+print(cola)
+x=cola.pop(0)
+print(cola
