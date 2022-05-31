@@ -1,0 +1,16 @@
+# Estructura-de-datos
+def cuadradoPorSumas(valor):
+    suma=0
+    for i in range(1,valor):
+        suma=suma+valor
+    return suma
+
+mat = [None]*n
+
+for i in range(0,n):
+    mat[i]=[None]*n
+    
+for i in range(0,n):
+    for j in range(0,n):
+        mat[i][j]=random.randint(1,10)
+        print("El cuadrado de "+str(mat[i][j])+" es: " + str(cuadradoPorSumas(mat[i][j])))
