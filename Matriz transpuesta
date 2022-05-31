@@ -1,0 +1,10 @@
+# Estructura-de-datos
+def matrizTraspuesta(self):
+        matrizRes=[]
+        for i in range(self.columnas):
+            list_a=[]
+            for j in range(self.filas):
+                k=self.matriz[j][i]
+                list_a.append(k)
+            matrizRes.append(list_a)
+        return matrizRes
