@@ -1,0 +1,12 @@
+# Estructura-de-datos
+def restarMatriz(self, matrizB):
+        matrizRes= []
+        for i in range(self.filas):
+            list_a = []
+            for j in range(matrizB.columnas):
+                c=matrizB.matriz[i][j]*(-1)
+                mult=self.matriz[i][j]+c
+                list_a.append(mult)
+            matrizRes.append(list_a)
+                #print(list_a)
+        return matrizRes
