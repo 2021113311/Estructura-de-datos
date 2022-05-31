@@ -1,0 +1,44 @@
+# Estructura-de-datos
+# incluir  " StdAfx.h "
+# incluir  < iostream >
+# incluir  " vector.h "
+
+utilizando el espacio de  nombres  estándar ;
+
+vector::vector ( vacío )
+{
+	vec[ 10 ]= 0 ;
+	n= 0 ;
+}
+
+
+vector::~vector ( vacío )
+{
+}
+
+vector vacío  ::cargarVector ( int vec[], int n){
+	para ( int i= 0 ;i<n;i++){
+		cout<< " vec[ " <<i<< " ] = " ;
+		cin>>vec[i];
+	}
+}
+
+vector vacío  ::mostrarVector ( int vec[], int n){
+	para ( int i= 0 ;i<n;i++){
+		cout<<vec[i]<< " , " ;
+	}
+	cout<<endl;
+}
+
+vector vacío  ::ordenarVector ( int vec[], int n){
+	int auxiliar;
+	para ( int i= 0 ; i<(n- 1 ); i++){
+		para ( int j=i; j<n; j++){
+			si (vec[i] > vec[j]){
+				aux = vec[i];
+				vec[i] = vec[j];
+				vec[j] = auxiliar;
+			}
+		}
+	}
+}
