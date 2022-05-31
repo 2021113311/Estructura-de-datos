@@ -1,0 +1,13 @@
+#Este código entrega la cantidad de combinaciones de n variables booleanas.
+combinaciones=["V","F"]
+n=int(input("Introduce la cantidad de variables booleanas: "))
+for i in range(n-1):
+    valores=[]
+    for i in combinaciones:
+        posible1="V"+i
+        posible2="F"+i
+        valores.append(posible1)
+        valores.append(posible2)
+    combinaciones=valores
+print("Las combinaciones posibles son:\n",combinaciones)
+print("La cantidad de combinaciones es:",len(combinaciones))
